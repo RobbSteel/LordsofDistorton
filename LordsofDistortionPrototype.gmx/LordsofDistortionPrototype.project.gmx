@@ -9,6 +9,11 @@
     <sprite>sprites\spr_char1</sprite>
     <sprite>sprites\spr_AI</sprite>
     <sprite>sprites\spr_ground</sprite>
+    <sprite>sprites\spr_wall</sprite>
+    <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_iceblock</sprite>
+    <sprite>sprites\spr_icetrap</sprite>
+    <sprite>sprites\spr_shield</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -17,8 +22,13 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_char1</object>
+    <object>objects\obj_wall</object>
     <object>objects\obj_AI</object>
     <object>objects\obj_ground</object>
+    <object>objects\obj_fireball</object>
+    <object>objects\obj_iceblock</object>
+    <object>objects\obj_icetrap</object>
+    <object>objects\obj_shield</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
