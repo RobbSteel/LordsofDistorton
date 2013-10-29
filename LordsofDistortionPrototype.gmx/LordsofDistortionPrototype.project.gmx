@@ -10,18 +10,24 @@
     <sprite>sprites\spr_AI</sprite>
     <sprite>sprites\spr_ground</sprite>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_iceblock</sprite>
     <sprite>sprites\spr_icetrap</sprite>
     <sprite>sprites\spr_shield</sprite>
 =======
+=======
+>>>>>>> bbcaa9ffe202cc15ec4ded70ddedd32404532132
     <sprite>sprites\spr_spikeTrap</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_arrowTrap</sprite>
     <sprite>sprites\spr_bat</sprite>
     <sprite>sprites\spr_bat2</sprite>
     <sprite>sprites\spr_gravField</sprite>
+<<<<<<< HEAD
+>>>>>>> bbcaa9ffe202cc15ec4ded70ddedd32404532132
+=======
 >>>>>>> bbcaa9ffe202cc15ec4ded70ddedd32404532132
   </sprites>
   <backgrounds name="background">
