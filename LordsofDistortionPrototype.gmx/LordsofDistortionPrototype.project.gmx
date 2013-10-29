@@ -41,9 +41,9 @@
     <object>objects\obj_fireball</object>
     <object>objects\obj_iceblock</object>
     <object>objects\obj_icetrap</object>
-    <object>objects\obj_shield</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_DropLayer</object>
+    <object>objects\obj_ScreenDraw</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

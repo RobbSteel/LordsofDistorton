@@ -215,7 +215,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>effect_create_below(ef_firework,obj_char1.x,obj_char1.y, 2, c_yellow);
+            <string>effect_create_below(ef_firework,obj_shield.x,obj_shield.y, 2, c_yellow);
 </string>
           </argument>
         </arguments>
