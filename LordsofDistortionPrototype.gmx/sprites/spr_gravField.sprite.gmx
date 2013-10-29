@@ -5,9 +5,9 @@
   <colkind>0</colkind>
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
-  <bboxmode>0</bboxmode>
+  <bboxmode>1</bboxmode>
   <bbox_left>0</bbox_left>
-  <bbox_right>317</bbox_right>
+  <bbox_right>319</bbox_right>
   <bbox_top>0</bbox_top>
   <bbox_bottom>319</bbox_bottom>
   <HTile>0</HTile>
