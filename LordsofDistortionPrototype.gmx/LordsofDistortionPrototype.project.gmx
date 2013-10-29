@@ -25,6 +25,12 @@
     <object>objects\obj_char1</object>
     <object>objects\obj_AI</object>
     <object>objects\obj_ground</object>
+    <object>objects\obj_spikeTrap</object>
+    <object>objects\obj_arrowTrap</object>
+    <object>objects\obj_arrow</object>
+    <object>objects\obj_bat</object>
+    <object>objects\obj_bat2</object>
+    <object>objects\obj_gravField</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
