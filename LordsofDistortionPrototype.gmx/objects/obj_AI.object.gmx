@@ -82,6 +82,32 @@
         </arguments>
       </action>
     </event>
+    <event eventtype="1" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>obj_DropLayer</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Dead</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="2" enumb="1">
       <action>
         <libid>1</libid>
@@ -1413,7 +1439,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>effect_create_below(ef_firework,obj_char1.x,obj_char1.y, 2, c_red);
+            <string>effect_create_below(ef_firework,obj_AI.x,obj_AI.y, 2, c_red);
 </string>
           </argument>
         </arguments>

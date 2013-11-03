@@ -57,7 +57,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>effect_create_below(ef_firework,obj_char1.x,obj_char1.y, 2, c_red);
+            <string>effect_create_below(ef_firework,obj_AI.x,obj_AI.y, 2, c_red);
 </string>
           </argument>
         </arguments>
