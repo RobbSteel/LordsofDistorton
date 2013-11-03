@@ -383,7 +383,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_char1.x+30</string>
+            <string>obj_char1.x+47</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -467,7 +467,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>obj_char1.x-30</string>
+            <string>obj_char1.x-47</string>
           </argument>
           <argument>
             <kind>0</kind>
