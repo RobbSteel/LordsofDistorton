@@ -21,6 +21,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_DropLayer</sprite>
+    <sprite>sprites\spr_attack</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -43,6 +44,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_DropLayer</object>
     <object>objects\obj_ScreenDraw</object>
+    <object>objects\obj_attack</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
