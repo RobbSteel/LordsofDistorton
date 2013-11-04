@@ -125,7 +125,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>jumped</string>
+            <string>jump</string>
           </argument>
           <argument>
             <kind>0</kind>
