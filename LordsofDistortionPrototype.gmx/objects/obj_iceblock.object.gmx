@@ -11,21 +11,21 @@
     <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
-        <id>612</id>
+        <id>404</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
+        <functionname>action_if_number</functionname>
         <codestring></codestring>
-        <whoName>obj_char1</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>Frozen</string>
+            <kind>10</kind>
+            <object>obj_char1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -53,21 +53,21 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>404</id>
+        <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>-1</isquestion>
-        <useapplyto>0</useapplyto>
+        <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_number</functionname>
+        <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_char1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_char1</object>
+            <kind>0</kind>
+            <string>Frozen</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -105,34 +105,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>421</id>
-        <kind>3</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>424</id>
         <kind>2</kind>
         <userelative>0</userelative>
@@ -144,100 +116,6 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>obj_AI</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>Frozen</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>404</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_number</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obj_AI</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>obj_AI.x</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>obj_AI.y</string>
-          </argument>
-        </arguments>
       </action>
       <action>
         <libid>1</libid>
@@ -262,20 +140,6 @@
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -285,21 +149,21 @@
     <event eventtype="3" enumb="1">
       <action>
         <libid>1</libid>
-        <id>612</id>
+        <id>404</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
+        <useapplyto>0</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
+        <functionname>action_if_number</functionname>
         <codestring></codestring>
-        <whoName>obj_char1</whoName>
+        <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>0</kind>
-            <string>Frozen</string>
+            <kind>10</kind>
+            <object>obj_char1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -327,21 +191,21 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>404</id>
+        <id>612</id>
         <kind>0</kind>
         <userelative>0</userelative>
         <isquestion>-1</isquestion>
-        <useapplyto>0</useapplyto>
+        <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
-        <functionname>action_if_number</functionname>
+        <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_char1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_char1</object>
+            <kind>0</kind>
+            <string>Frozen</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -379,34 +243,6 @@
       </action>
       <action>
         <libid>1</libid>
-        <id>421</id>
-        <kind>3</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
         <id>424</id>
         <kind>2</kind>
         <userelative>0</userelative>
@@ -418,100 +254,6 @@
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>obj_AI</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>Frozen</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>404</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_number</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>10</kind>
-            <object>obj_AI</object>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>1</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>109</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move_to</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>obj_AI.x</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>obj_AI.y</string>
-          </argument>
-        </arguments>
       </action>
       <action>
         <libid>1</libid>
@@ -536,20 +278,6 @@
         <useapplyto>-1</useapplyto>
         <exetype>1</exetype>
         <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
