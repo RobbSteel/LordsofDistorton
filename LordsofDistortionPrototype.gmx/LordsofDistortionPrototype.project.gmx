@@ -25,6 +25,9 @@
     <sprite>sprites\spr_powerback</sprite>
     <sprite>sprites\spr_Activated</sprite>
     <sprite>sprites\spr_Used</sprite>
+    <sprite>sprites\spr_lightning</sprite>
+    <sprite>sprites\spr_stalactites</sprite>
+    <sprite>sprites\spr_stalactite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -41,6 +44,7 @@
     <object>objects\obj_spikeTrap</object>
     <object>objects\obj_arrowTrap</object>
     <object>objects\obj_arrow</object>
+    <object>objects\obj_stalactite</object>
     <object>objects\obj_bat2</object>
     <object>objects\obj_gravField</object>
     <object>objects\obj_fireball</object>
@@ -50,6 +54,8 @@
     <object>objects\obj_DropLayer</object>
     <object>objects\obj_ScreenDraw</object>
     <object>objects\obj_attack</object>
+    <object>objects\obj_lightning</object>
+    <object>objects\obj_stalactites</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
