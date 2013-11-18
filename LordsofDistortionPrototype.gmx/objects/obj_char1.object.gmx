@@ -11,6 +11,36 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>player_shoot_key = mb_left;
+player_release_key = mb_right;
+angle_to_shoot = 0;
+grapplinghook_shooting = false;
+grapplinghook_selected = true;
+gh_from_x = 0;
+gh_from_y = 0;
+gh_to_x = 0;
+gh_to_y = 0;
+angle_to_travel = -1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>115</id>
         <kind>0</kind>
         <userelative>0</userelative>
@@ -1059,6 +1089,194 @@
       </action>
     </event>
     <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>612</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>-1</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_if_variable</functionname>
+        <codestring></codestring>
+        <whoName>obj_ScreenDraw</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>Started</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>1</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>422</id>
+        <kind>1</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>0</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+
+
+
+
+
+
+
+
+if (mouse_check_button_pressed(player_shoot_key) &amp;&amp; !grapplinghook_shooting)
+{
+  
+    if (!grapplinghook_shooting)
+    {
+   
+        gh_from_x = x+ sprite_width/4;
+        gh_from_y = y+ sprite_height/4;
+        gh_to_x = mouse_x;
+        gh_to_y = mouse_y;
+        angle_to_shoot = point_direction(gh_from_x, gh_from_y, gh_to_x, gh_to_y);
+        direction = angle_to_shoot;
+       
+    }
+    
+ 
+    if (grapplinghook_selected)
+    {
+        grapplinghook_shooting = true;
+
+     
+        
+        temp_hook = instance_create(gh_from_x, gh_from_y, obj_hook);
+        temp_hook.speed = 20;
+        temp_hook.direction = angle_to_shoot;
+        temp_hook.image_angle = temp_hook.direction;
+        
+      
+        temp_connector = instance_create(obj_char1.x, obj_char1.y, obj_hookline);
+        temp_connector.speed = 0;
+        temp_connector.direction = angle_to_shoot;
+        temp_connector.image_angle = temp_connector.direction;
+    
+        
+        
+    }
+    
+}
+
+
+if (mouse_check_button_pressed(player_release_key) &amp;&amp; (grapplinghook_shooting))
+{
+    grapplinghook_shooting = false;
+    speed = 0;
+
+    with (obj_hookline)
+    {
+        instance_destroy();
+    }
+    
+    
+    with (obj_hook)
+    {
+        instance_destroy();
+    }
+}
+
+if instance_exists(obj_hook)
+{
+    player_current_x = x 
+    player_current_y = y 
+ 
+    gh_current_location_x = obj_hook.x + obj_hook.sprite_width/2;
+    gh_current_location_y = obj_hook.y + obj_hook.sprite_height/2;
+        
+    angle_to_travel = point_direction(player_current_x, player_current_y, gh_current_location_x, gh_current_location_y);
+        
+    
+    if (obj_hook.hook_connected = true)
+    {
+        if (distance_to_object(obj_hook) &gt; 16)
+        {
+            
+            if(obj_hook.AI_hit = false){
+            
+            direction = angle_to_travel;
+            speed = 30;
+            
+            } else {
+            
+            obj_hook.x = obj_AI.x;
+            obj_hook.y = obj_AI.y;
+            obj_AI.stunned = 1;
+            
+                if(distance_to_object(obj_AI) &gt; 200){
+            
+                obj_AI.AI_pulled = 1;
+            
+                } else {
+              
+                obj_AI.AI_pulled = 0;
+                
+                }
+            
+            }
+        }
+        else
+        {
+            grapplinghook_shooting = false;
+            speed = 0;
+            obj_AI.stunned = 0;
+            
+            with (obj_hookline)
+            {
+                instance_destroy();
+            }
+            
+            
+            with (obj_hook)
+            {
+                instance_destroy();
+            }
+        }
+    }
+}
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>612</id>
