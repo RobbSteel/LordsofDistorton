@@ -1514,7 +1514,7 @@ obj_itemManager.locationsY[0] = mouse_y;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>time</string>
+            <string>time + obj_ScreenDraw.time*room_speed</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -1930,7 +1930,7 @@ obj_itemManager.locationsY[1] = mouse_y;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>time</string>
+            <string>time + obj_ScreenDraw.time*room_speed</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -2082,7 +2082,7 @@ obj_itemManager.locationsY[2] = mouse_y;
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>time</string>
+            <string>time + obj_ScreenDraw.time*room_speed</string>
           </argument>
           <argument>
             <kind>4</kind>

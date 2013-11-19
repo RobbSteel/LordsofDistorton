@@ -119,6 +119,42 @@ locationsY[0] = 0;
     <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>/*
+global.part = part_type_create();
+global.system = part_system_create();
+global.emitter = part_emitter_create(global.system);
+part_system_depth(global.system,depth)
+part_emitter_region(global.system,global.emitter,locationsX[0]- 30,locationsX[0] + 30,locationsY[0] - 30,locationsY[0]+30,ps_shape_diamond,ps_distr_gaussian);
+part_type_alpha3(global.part,1,1,1);
+part_type_color2(global.part,8404992,10485760);
+part_type_shape(global.part,pt_shape_pixel);
+part_type_life(global.part,30,35);
+part_type_speed(global.part,1.46,1.58,0,0);
+part_type_direction(global.part,-341.57,30.96,0,0);
+part_type_gravity(global.part,0,0);
+part_type_orientation(global.part,0,0,0,0,0);
+part_emitter_stream(global.system,global.emitter,global.part,15); //Uncomment this line to emit particles each step automatically
+*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>201</id>
         <kind>0</kind>
         <userelative>-1</userelative>

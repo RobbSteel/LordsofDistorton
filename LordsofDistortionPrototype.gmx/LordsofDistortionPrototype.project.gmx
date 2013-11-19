@@ -63,7 +63,7 @@
     <object>objects\obj_itemManager</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\ObjectSpawns</timeline>
+    <timeline>timelines\ObjectSpawnsAI</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\room0</room>
