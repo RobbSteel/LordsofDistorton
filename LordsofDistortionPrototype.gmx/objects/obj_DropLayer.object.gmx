@@ -1476,29 +1476,49 @@ obj_DropLayer.HitScreen = 1;
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_bat2</object>
+            <kind>1</kind>
+            <string>var time = 0;
+time = get_integer("What time to spawn in seconds?", 5) * 30;
+obj_itemManager.locationsX[0] = mouse_x;
+obj_itemManager.locationsY[0] = mouse_y;
+</string>
           </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>obj_itemManager</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
             <kind>0</kind>
-            <string>mouse_x</string>
+            <string>time</string>
           </argument>
           <argument>
-            <kind>0</kind>
-            <string>mouse_y</string>
+            <kind>4</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>
@@ -1872,29 +1892,49 @@ obj_DropLayer.HitScreen = 1;
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_fireball</object>
+            <kind>1</kind>
+            <string>var time = 0;
+time = get_integer("What time to spawn in seconds?", 5) * 30;
+obj_itemManager.locationsX[1] = mouse_x;
+obj_itemManager.locationsY[1] = mouse_y;
+</string>
           </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>obj_itemManager</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
             <kind>0</kind>
-            <string>mouse_x</string>
+            <string>time</string>
           </argument>
           <argument>
-            <kind>0</kind>
-            <string>mouse_y</string>
+            <kind>4</kind>
+            <string>1</string>
           </argument>
         </arguments>
       </action>
@@ -2004,29 +2044,49 @@ obj_DropLayer.HitScreen = 1;
       </action>
       <action>
         <libid>1</libid>
-        <id>201</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_create_object</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>10</kind>
-            <object>obj_gravField</object>
+            <kind>1</kind>
+            <string>var time = 0;
+time = get_integer("What time to spawn in seconds?", 5) * 30;
+obj_itemManager.locationsX[2] = mouse_x;
+obj_itemManager.locationsY[2] = mouse_y;
+</string>
           </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>obj_itemManager</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
           <argument>
             <kind>0</kind>
-            <string>mouse_x</string>
+            <string>time</string>
           </argument>
           <argument>
-            <kind>0</kind>
-            <string>mouse_y</string>
+            <kind>4</kind>
+            <string>2</string>
           </argument>
         </arguments>
       </action>

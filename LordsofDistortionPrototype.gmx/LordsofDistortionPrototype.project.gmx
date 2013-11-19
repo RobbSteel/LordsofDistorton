@@ -60,7 +60,11 @@
     <object>objects\obj_stalactites</object>
     <object>objects\obj_hook</object>
     <object>objects\obj_hookline</object>
+    <object>objects\obj_itemManager</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\ObjectSpawns</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\room0</room>
     <room>rooms\room1</room>
