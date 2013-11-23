@@ -72,6 +72,10 @@
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
