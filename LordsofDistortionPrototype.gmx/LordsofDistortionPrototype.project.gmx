@@ -6,8 +6,16 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_char1</sprite>
-    <sprite>sprites\spr_AI</sprite>
+    <sprite>sprites\spr_char1_attkR</sprite>
+    <sprite>sprites\spr_char1_attkL</sprite>
+    <sprite>sprites\spr_char1_idleR</sprite>
+    <sprite>sprites\spr_char1_idleL</sprite>
+    <sprite>sprites\spr_char1_walkL</sprite>
+    <sprite>sprites\spr_char1_walkR</sprite>
+    <sprite>sprites\spr_AI_walkingR</sprite>
+    <sprite>sprites\spr_AI_walkingL</sprite>
+    <sprite>sprites\spr_AI_idleL</sprite>
+    <sprite>sprites\spr_AI_idleR</sprite>
     <sprite>sprites\spr_ground</sprite>
     <sprite>sprites\spr_spikeTrap</sprite>
     <sprite>sprites\spr_arrow</sprite>
@@ -72,6 +80,10 @@
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
