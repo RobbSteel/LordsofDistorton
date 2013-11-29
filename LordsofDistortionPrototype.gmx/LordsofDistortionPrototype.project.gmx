@@ -50,6 +50,7 @@
   <objects name="objects">
     <object>objects\obj_char1</object>
     <object>objects\obj_AI</object>
+    <object>objects\obj_AI_1</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_spikeTrap</object>
     <object>objects\obj_arrowTrap</object>
