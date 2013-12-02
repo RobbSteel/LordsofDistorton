@@ -38,6 +38,8 @@
     <sprite>sprites\spr_stalactite</sprite>
     <sprite>sprites\spr_hook</sprite>
     <sprite>sprites\spr_hookline</sprite>
+    <sprite>sprites\spr_hooktimer</sprite>
+    <sprite>sprites\spr_shieldtimer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -70,6 +72,8 @@
     <object>objects\obj_hook</object>
     <object>objects\obj_hookline</object>
     <object>objects\obj_itemManager</object>
+    <object>objects\obj_hooktimer</object>
+    <object>objects\obj_shieldtimer</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\ObjectSpawnsAI</timeline>

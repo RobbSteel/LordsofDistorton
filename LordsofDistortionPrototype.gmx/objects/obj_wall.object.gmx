@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="obj_AI">
+    <event eventtype="4" ename="obj_AI_1">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -61,13 +61,13 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_AI</whoName>
+        <whoName>obj_AI_1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>Frozen</string>
+            <string>FrozenAI</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -157,7 +157,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="obj_AI_1">
+    <event eventtype="4" ename="obj_AI">
       <action>
         <libid>1</libid>
         <id>612</id>
@@ -210,13 +210,13 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>obj_AI_1</whoName>
+        <whoName>obj_AI</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>FrozenAI</string>
+            <string>Frozen</string>
           </argument>
           <argument>
             <kind>0</kind>
